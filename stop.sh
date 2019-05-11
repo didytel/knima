@@ -1,5 +1,5 @@
 #!/bin/sh
 set -e
 
-curl --unix-socket /var/run/docker.sock -i \
+curl --unix-socket /var/run/docker.sock \
 	-X POST http/containers/test/stop

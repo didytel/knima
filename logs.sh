@@ -1,6 +1,4 @@
 #!/bin/sh
 set -e
 
-docker logs test
-
-
+curl --unix-socket /var/run/docker.sock "http/containers/test/logs?stdout=1"
