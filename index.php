@@ -13,7 +13,7 @@ if (isset($_GET['a'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Docker engine test</title>
+    <title>KniMa - Le manager</title>
     <style>
         a {
             text-decoration: none;
@@ -26,7 +26,14 @@ if (isset($_GET['a'])) {
 </head>
 
 <body>
-    <p>Here we will test the docker engine. Prototype for KNIME containers</p>
+    <h1>KniMa <small>(/<span style="color:blue">ni-ma</span>/)</small></h1>
+    <p>KNIME - Le Workflow Manager</p>
+
+    <h3>App images</h3>
+    <div>
+        <a href="images.php?a=create">Create</a>
+    </div>
+    <h3>Manage containers</h3>
     <div>
         <table style="border-bottom: 4px solid orange">
             <tr>
