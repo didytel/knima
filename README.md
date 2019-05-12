@@ -1,0 +1,2 @@
+# knima
+knime workflow manager
