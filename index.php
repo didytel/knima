@@ -31,7 +31,7 @@ if (isset($_GET['a'])) {
 
     <h3>App images</h3>
     <div>
-        <a href="images.php?a=create">Create</a>
+        <a href="images/">Create</a>
     </div>
     <h3>Manage containers</h3>
     <div>
